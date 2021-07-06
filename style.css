@@ -9,7 +9,7 @@ p{
     line-height: 1.5;
 }
 
-header{}
+/* header  starts here */
 header ul{
     display: flex;
 }
@@ -27,8 +27,9 @@ header a{
     font-size: 20px;
     padding-top: 20px;
     padding-bottom:20px;
+    font-weight: 600;
 }
-
+/* header ends here */
 /* banner section starts here */
 
 .flex{
@@ -49,13 +50,13 @@ span{
     color: #e67e22;
 }
 
-.banner .left{
+#banner .left{
     padding-top: 8%;
     padding-left: 4%;
 }
 
-.banner p,
-.contact_me p{
+#banner p,
+#contact_me p{
     width: 80%;
     line-height: 1.5;
 }
@@ -72,7 +73,7 @@ span{
     margin-top: 25px;
 }
 
-.banner .right{
+#banner .right{
     padding-left: 2%;
     padding-right: 2%;
 }
@@ -88,23 +89,23 @@ img{
 
 /* banner section ends here */
 /* contact section starts here */
-.contact_me{
+#contact_me{
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 120px;
 }
 
-.contact_me .left{
+#contact_me .left{
     text-align: center;
 }
 
-.contact_me .right{
+#contact_me .right{
     padding-top: 8%;
     padding-left: 10%;
 }
 
-.contact_me img{
+#contact_me img{
     display: inline-block;
     width: 50%;
     padding-left: 5%;
@@ -112,10 +113,19 @@ img{
 
 /* contact section ends here */
 
-.my_recipies{
+#my_recipies{
     margin-bottom: 20px;
 }
 
+.center .title{
+    padding-top: 50px;
+}
+
+.center p{
+    width: 60%;
+    margin: auto;
+    padding-bottom: 30px;
+}
 .recipies{
     padding-left: 100px;
     padding-right: 50px;
