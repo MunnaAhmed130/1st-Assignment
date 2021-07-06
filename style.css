@@ -10,6 +10,11 @@ p{
 }
 
 /* header  starts here */
+
+header{
+    background-color: black;
+    margin-top: ;
+}
 header ul{
     display: flex;
 }
@@ -21,7 +26,7 @@ header li{
 header a{
     display: inline-block;
     text-decoration: none;
-    color: black;
+    color: white;
     margin-right: 100px;
     margin-left: 100px;
     font-size: 20px;
@@ -183,10 +188,13 @@ img{
 .count{
     width: 33.3%;
     text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 #subscribers{
-    margin-bottom: 40px;
+    margin-bottom: 100px;
+    margin-top: 100px;
 }
 /* footer section starts here */
 footer{
