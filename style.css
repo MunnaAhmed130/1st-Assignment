@@ -12,6 +12,7 @@ p{
 /* header  starts here */
 
 header{
+    margin-top: -16px;
     background-color: black;
 }
 header ul{
